@@ -34,6 +34,7 @@ span{
   --sub-head: #0B0223;
   --white: #ffffff;
   --bg-list-col: #534C64;
+  --footer-bg:#0B0223;;
 }
 /* ===== variable declaration ===== */
 /* ===== header css starts ===== */
@@ -493,6 +494,54 @@ nav{
 }
 /* ===== categories css ends ===== */
 /* ===== main css ends ===== */
-
 /* ===== footer css starts ===== */
+#footer{
+  background: var(--footer-bg);
+  padding: 100px 0;
+  text-align: center;
+}
+.foooter-logo-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foooter-logo-area img{
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+}
+.footer-brand-name{
+  color: var(--white);
+  font-size: 36px;
+  font-weight: 700;
+}
+.footer-menu ul{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px 0;
+}
+.footer-menu ul li a{
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer-social ul{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.terms-menu ul{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.terms-menu ul li a,
+.copyright p{
+  color: var(--bg-list-col);
+  font-size: 14px;
+  font-weight: 400;
+}
 /* ===== footer css ends ===== */
