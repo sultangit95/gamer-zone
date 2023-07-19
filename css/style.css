@@ -264,6 +264,112 @@ nav{
   margin-top: 15px;
 }
 /* ===== videos css ends ===== */
+/* ===== play-instant css starts ===== */
+#play{
+  padding-bottom: 180px;
+}
+.play-contents{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.play-texts{
+  width: 40%;
+  text-align: right;
+}
+.instant-play-heading{
+  color: var(--brand);
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.instant-play-para{
+  color: var(--bg-list-col);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 130px;
+  line-height: 24px;
+}
+.play-images{
+  width: 60%;
+  height: 500px;
+  position: relative;
+  text-align: right;
+}
+.play-image-1{
+  width: 500px;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.play-image-1 img{
+  width: 100%;
+}
+.play-image-2{
+  width: 280px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+.play-image-2 img{
+  width: 100%;
+}
+/* ===== play-instant css ends ===== */
+/* ===== play-online css starts ===== */
+#play-online{
+  padding-bottom: 180px;
+}
+.play-online-contents{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.play-online-texts{
+  width: 40%;
+  text-align: left;
+}
+.online-play-heading{
+  color: var(--brand);
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.online-play-para{
+  color: var(--bg-list-col);
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 30px;
+  line-height: 24px;
+}
+.play-online-images{
+  width: 60%;
+  height: 500px;
+  position: relative;
+  text-align: left;
+}
+.play-online-image-1{
+  width: 500px;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.play-online-image-1 img{
+  width: 100%;
+}
+.play-online-image-2{
+  width: 280px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  right: 50px;
+}
+.play-online-image-2 img{
+  width: 100%;
+}
+/* ===== play-online css ends ===== */
 /* ===== main css ends ===== */
 
 /* ===== footer css starts ===== */
