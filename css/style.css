@@ -86,9 +86,6 @@ nav{
   border-radius: 5px;
 }
 /* ===== banner css starts ===== */
-#banner{
-  position: relative;
-}
 .banner-contents{
   display: flex;
   align-items: center;
