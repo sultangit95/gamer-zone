@@ -436,6 +436,62 @@ nav{
   font-weight: 600;
 }
 /* ===== careers css ends ===== */
+/* ===== categories css starts ===== */
+#categories{
+  margin-bottom: 100px;
+}
+.category-cards{
+  display: grid;
+  grid-template-areas:
+  "btn-1 btn-1 btn-1 btn-1  btn-2 btn-2 btn-2 btn-2 btn-3 btn-3 btn-3 btn-3 btn-4 btn-4 btn-4 btn-4 btn-5 btn-5 btn-5 btn-5"
+  "btn-6 btn-6 btn-6 btn-6 btn-6 btn-7 btn-7 btn-7 btn-7 btn-7 btn-8 btn-8 btn-8 btn-8 btn-8 btn-9 btn-9 btn-9 btn-9 btn-9"
+  ;
+  gap: 10px;
+
+}
+.category-card{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  transition: all linear 0.3s;
+}
+.category-card img{
+  margin-right: 10px;
+}
+.category-card:hover{
+  border-color: var(--brand);
+  cursor: pointer;
+}
+.category-card-1{
+  grid-area: btn-1;
+}
+.category-card-2{
+  grid-area: btn-2;
+}
+.category-card-3{
+  grid-area: btn-3;
+}
+.category-card-4{
+  grid-area: btn-4;
+}
+.category-card-5{
+  grid-area: btn-5;
+}
+.category-card-6{
+  grid-area: btn-6;
+}
+.category-card-7{
+  grid-area: btn-7;
+}
+.category-card-8{
+  grid-area: btn-8;
+}
+.category-card-9{
+  grid-area: btn-9;
+}
+/* ===== categories css ends ===== */
 /* ===== main css ends ===== */
 
 /* ===== footer css starts ===== */
