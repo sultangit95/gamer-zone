@@ -370,6 +370,72 @@ nav{
   width: 100%;
 }
 /* ===== play-online css ends ===== */
+/* ===== careers css starts ===== */
+#careers{
+  background: var(--brand);
+  margin-bottom: 100px;
+  padding: 80px 0;
+  position: relative;
+}
+#careers::after{
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("../images/group-65.png") no-repeat center / cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.careers-contents{
+  display: flex;
+  align-items: center;
+}
+.careers-content-area{
+  width: 50%;
+}
+.careers-content-heading{
+  color: var(--white);
+  font-size: 36px;
+  font-weight: 700;
+}
+.careers-content-para{
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+.career-list-area{
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.career-list-area ul li{
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.career-left-list{
+  width: 50%;
+  height: 100%;
+}
+.career-right-list{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+}
+.btn-career{
+  background: var(--white);
+  border: none;
+  padding: 12px 20px;
+  color: var(--brand);
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+}
+/* ===== careers css ends ===== */
 /* ===== main css ends ===== */
 
 /* ===== footer css starts ===== */
