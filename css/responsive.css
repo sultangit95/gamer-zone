@@ -217,27 +217,224 @@
   }
   /* ===== categories css ends ===== */
   /* ===== footer css starts ===== */
-#footer{
-  padding: 50px 30px;
+  #footer{
+    padding: 50px 30px;
+  }
+  .footer-menu ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .footer-social ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .terms-menu ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .copyright p{
+    padding: 0 60px;
+    line-height: 24px;
+  }
+  /* ===== footer css ends ===== */
 }
-.footer-menu ul{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .custom-container{
+    width: 90%;
+    margin: 0 auto;
 }
-.footer-social ul{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-.terms-menu ul{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-.copyright p{
-  padding: 0 60px;
-  line-height: 24px;
-}
-/* ===== footer css ends ===== */
+  /* ===== banner css starts ===== */
+  #banner{
+    padding: 50px 30px;
+  }
+  /* ===== banner css ends ===== */
+  /* ===== gamer css starts ===== */
+  #gamer{
+    padding: 50px 30px;
+  }
+  .gamer-contents{
+    flex-direction: column;
+  }
+  .gamer-image-area{
+    width: 100%;
+  }
+  .gamer-image-area img{
+    width: 100%;
+  }
+  .gamer-text-area{
+    width: 100%;
+    text-align: center;
+  }
+  .gamer-heading{
+    font-size: 28px;
+  }
+  .gamer-last-heading{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  /* ===== gamer css ends ===== */
+  /* ===== videos css starts ===== */
+  #videos{
+    padding: 50px 30px;
+  }
+  .video-section-heading{
+    font-size: 28px;
+  }
+  .video-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ===== videos css ends ===== */
+  #play{
+    padding: 50px 30px;
+  }
+  .play-contents{
+    flex-direction: column;
+  }
+  .play-texts{
+    width: 100%;
+    text-align: center;
+  }
+  .instant-play-heading{
+    font-size: 28px;
+    margin-top: 0;
+  }
+  .instant-play-para{
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  .play-images{
+    width: 100%;
+    height: 300px;
+  }
+  .play-image-1{
+    width: 500px;
+    margin-bottom: 20px;
+  }
+
+  .play-image-1 img{
+    width: 100%;
+  }
+  .play-image-2{
+    width: 200px;
+    top: 342px;
+    left: 60px;
+  }
+  /* ===== play-instant css ends ===== */
+  /* ===== play-online css starts ===== */
+  #play-online{
+    padding: 50px 30px;
+  }
+  .play-online-contents{
+    flex-direction: column-reverse;
+  }
+  .play-online-texts{
+    width: 100%;
+    text-align: center;
+  }
+  .online-play-heading{
+    font-size: 28px;
+    margin-top: 0;
+  }
+  .online-play-para{
+    padding-right: 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .play-online-images{
+    width: 100%;
+    height: 300px;
+  }
+  .play-online-image-1{
+    width: 500px;
+    height: 500px;
+  }
+  .play-online-image-1 img{
+    width: 100%;
+  }
+  .play-online-image-2{
+    width: 200px;
+    height: 150px;
+    top: 180px;
+    right: 0;
+  }
+  /* ===== play-online css ends ===== */
+  /* ===== careers css starts ===== */
+  #careers{
+    margin-top: 150px;
+    padding: 50px 30px;
+    margin-bottom: 0;
+  }
+  #careers::after{
+    background: none;
+  }
+  .careers-contents{
+    flex-direction: column;
+  }
+  .careers-content-area{
+    width: 100%;
+  }
+  .careers-content-heading{
+    font-size: 28px;
+    text-align: center;
+  }
+  .career-list-area ul li{
+    font-size: 12px;
+  }
+  .career-left-list{
+    width: 50%;
+    height: 100%;
+  }
+  .career-right-list{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+  }
+  .btn-career{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  /* ===== careers css ends ===== */
+  /* ===== categories css starts ===== */
+  #categories{
+    padding: 50px 30px;
+    margin-bottom: 0;
+  }
+  .category-cards{
+    grid-template-areas:
+    "btn-1 btn-2 btn-3"
+    "btn-4 btn-5 btn-6"
+    "btn-7 btn-8 btn-9"
+    ;
+  }
+  /* ===== categories css ends ===== */
+  /* ===== footer css starts ===== */
+  #footer{
+    padding: 50px 30px;
+  }
+  .footer-menu ul{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  .footer-social ul{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
+  .terms-menu ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .copyright p{
+    padding: 0 60px;
+    line-height: 24px;
+  }
+  /* ===== footer css ends ===== */
 }
