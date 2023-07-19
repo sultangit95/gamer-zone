@@ -1,0 +1,243 @@
+@media screen and (max-width: 576px) {
+  .custom-container{
+    width: 90%;
+    margin: 0 auto;
+}
+  .nav-items{
+    display: inherit;
+  }
+  .logo-area{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .list-area{
+    display: inherit;
+    width: 100%;
+  }
+  .menu-items-1{
+    display: inherit;
+    text-align: center;
+  }
+  .menu-items-1 li a{
+    margin-right: 0;
+    padding-bottom: 20px;
+    display: block;
+  }
+  .menu-items-1 li a:hover{
+    color: var(--brand);
+  }
+  .menu-items-2{
+    width: 60%;
+    margin: 0 auto;
+  }
+  /* ===== banner css starts ===== */
+  #banner{
+    padding: 0 30px;
+  }
+  .banner-contents{
+    flex-direction: column-reverse;
+  }
+  .banner-text{
+    width: 100%;
+  }
+  .banner-sub-heading{
+    margin-top: 30px;
+  }
+  .banner-heading{
+    font-size: 70px;
+  }
+  .banner-images{
+    width: 100%;
+  }
+  .banner-images img{
+    width: 100%;
+  }
+  /* ===== banner css ends ===== */
+  /* ===== gamer css starts ===== */
+  #gamer{
+    padding: 50px 30px;
+  }
+  .gamer-contents{
+    flex-direction: column;
+  }
+  .gamer-image-area{
+    width: 100%;
+  }
+  .gamer-image-area img{
+    width: 100%;
+  }
+  .gamer-text-area{
+    width: 100%;
+    text-align: center;
+  }
+  .gamer-heading{
+    font-size: 28px;
+  }
+  .gamer-last-heading{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  /* ===== gamer css ends ===== */
+  /* ===== videos css starts ===== */
+  #videos{
+    padding: 50px 30px;
+  }
+  .video-section-heading{
+    font-size: 28px;
+  }
+  .video-cards{
+    flex-direction: column;
+  }
+  /* ===== videos css ends ===== */
+  #play{
+    padding: 50px 30px;
+  }
+  .play-contents{
+    flex-direction: column;
+  }
+  .play-texts{
+    width: 100%;
+    text-align: center;
+  }
+  .instant-play-heading{
+    font-size: 28px;
+    margin-top: 0;
+  }
+  .instant-play-para{
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  .play-images{
+    width: 100%;
+    height: 300px;
+  }
+  .play-image-1{
+    width: 250px;
+  }
+  .play-image-1 img{
+    width: 100%;
+  }
+  .play-image-2{
+    width: 100px;
+    top: 170px;
+    left: 30px;
+  }
+  /* ===== play-instant css ends ===== */
+  /* ===== play-online css starts ===== */
+  #play-online{
+    padding: 50px 30px;
+  }
+  .play-online-contents{
+    flex-direction: column-reverse;
+  }
+  .play-online-texts{
+    width: 100%;
+    text-align: center;
+  }
+  .online-play-heading{
+    font-size: 28px;
+    margin-top: 0;
+  }
+  .online-play-para{
+    padding-right: 0;
+    margin: 20px 0;
+  }
+  .play-online-images{
+    width: 100%;
+    height: 300px;
+  }
+  .play-online-image-1{
+    width: 280px;
+    height: 300px;
+  }
+  .play-online-image-1 img{
+    width: 100%;
+  }
+  .play-online-image-2{
+    width: 100px;
+    height: 150px;
+    top: 180px;
+    right: 0;
+  }
+  /* ===== play-online css ends ===== */
+  /* ===== careers css starts ===== */
+  #careers{
+    margin: 0;
+    padding: 50px 30px;
+  }
+  #careers::after{
+    background: none;
+  }
+  .careers-contents{
+    flex-direction: column;
+  }
+  .careers-content-area{
+    width: 100%;
+  }
+  .careers-content-heading{
+    font-size: 28px;
+    text-align: center;
+  }
+  .career-list-area ul li{
+    font-size: 12px;
+  }
+  .career-left-list{
+    width: 50%;
+    height: 100%;
+  }
+  .career-right-list{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+  }
+  .btn-career{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  /* ===== careers css ends ===== */
+  /* ===== categories css starts ===== */
+  #categories{
+    padding: 50px 30px;
+    margin-bottom: 0;
+  }
+  .category-cards{
+    grid-template-areas:
+    "btn-1"
+    "btn-2"
+    "btn-3"
+    "btn-4"
+    "btn-5"
+    "btn-6"
+    "btn-7"
+    "btn-8"
+    "btn-9"
+    ;
+  }
+  /* ===== categories css ends ===== */
+  /* ===== footer css starts ===== */
+#footer{
+  padding: 50px 30px;
+}
+.footer-menu ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.footer-social ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.terms-menu ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.copyright p{
+  padding: 0 60px;
+  line-height: 24px;
+}
+/* ===== footer css ends ===== */
+}

@@ -20,7 +20,6 @@ img{
 .custom-container{
   width: 1140px;
   margin: 0 auto;
-  /* background: rgb(97, 87, 87); */
 }
 span{
   color: var(--brand);
