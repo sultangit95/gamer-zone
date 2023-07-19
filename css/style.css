@@ -31,6 +31,9 @@ span{
   --p-col: #3C354F;
   --icon-bg: #E7E6E9;
   --brand: #FF42A5;
+  --sub-head: #0B0223;
+  --white: #ffffff;
+  --bg-list-col: #534C64;
 }
 /* ===== variable declaration ===== */
 /* ===== header css starts ===== */
@@ -82,6 +85,65 @@ nav{
   padding: 10px 0 10px 20px;
   border-radius: 5px;
 }
+/* ===== banner css starts ===== */
+#banner{
+  position: relative;
+}
+.banner-contents{
+  display: flex;
+  align-items: center;
+}
+.banner-text{
+  width: 50%;
+}
+.banner-text ul li{
+  color: var(--bg-list-col);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.banner-text ul{
+  margin-bottom: 20px;
+}
+.banner-text ul li img{
+  margin-right: 10px;
+  width: 20px;
+}
+.banner-sub-heading{
+  color: var(--sub-head);
+  font-size: 40px;
+  font-weight: 600;
+}
+.banner-heading{
+  color: var(--brand);
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.btn-primary{
+  background: var(--brand);
+  border: none;
+  padding: 12px 20px;
+  color: var(--white);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btn-secondary{
+  background: #4EC5F7;
+  border: none;
+  padding: 12px 20px;
+  color: var(--white);
+  border-radius: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.banner-images{
+  width: 50%;
+}
+.banner-images img{
+  width: 100%;
+}
+/* ===== banner css ends ===== */
 /* ===== header css ends ===== */
 
 /* ===== main css starts ===== */
