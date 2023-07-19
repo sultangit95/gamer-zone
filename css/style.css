@@ -1,0 +1,31 @@
+/* ===== font family link ===== */
+
+/* ===== common css starts ===== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+}
+.custom-container{
+  width: 1140px;
+  margin: 0 auto;
+}
+/* ===== common css ends ===== */
+/* ===== header css starts ===== */
+/* ===== header css ends ===== */
+
+/* ===== main css starts ===== */
+/* ===== main css ends ===== */
+
+/* ===== footer css starts ===== */
+/* ===== footer css ends ===== */
