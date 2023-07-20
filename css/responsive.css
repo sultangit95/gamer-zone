@@ -35,6 +35,9 @@
   #banner{
     padding: 0 30px;
   }
+  #banner::after{
+    display: none;
+  }
   .banner-contents{
     flex-direction: column-reverse;
   }
@@ -90,7 +93,7 @@
     flex-direction: column;
   }
   /* ===== videos css ends ===== */
-  #play{
+  /* #play{
     padding: 50px 30px;
   }
   .play-contents{
@@ -122,10 +125,10 @@
     width: 100px;
     top: 170px;
     left: 30px;
-  }
+  } */
   /* ===== play-instant css ends ===== */
   /* ===== play-online css starts ===== */
-  #play-online{
+  /* #play-online{
     padding: 50px 30px;
   }
   .play-online-contents{
@@ -159,7 +162,7 @@
     height: 150px;
     top: 180px;
     right: 0;
-  }
+  } */
   /* ===== play-online css ends ===== */
   /* ===== careers css starts ===== */
   #careers{
@@ -289,7 +292,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   /* ===== videos css ends ===== */
-  #play{
+  /* #play{
     padding: 50px 30px;
   }
   .play-contents{
@@ -315,7 +318,6 @@
     width: 500px;
     margin-bottom: 20px;
   }
-
   .play-image-1 img{
     width: 100%;
   }
@@ -323,10 +325,10 @@
     width: 200px;
     top: 342px;
     left: 60px;
-  }
+  } */
   /* ===== play-instant css ends ===== */
   /* ===== play-online css starts ===== */
-  #play-online{
+  /* #play-online{
     padding: 50px 30px;
   }
   .play-online-contents{
@@ -361,7 +363,7 @@
     height: 150px;
     top: 180px;
     right: 0;
-  }
+  } */
   /* ===== play-online css ends ===== */
   /* ===== careers css starts ===== */
   #careers{

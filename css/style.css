@@ -106,6 +106,7 @@ nav{
 }
 .banner-text{
   width: 50%;
+  z-index: 1;
 }
 .banner-text ul li{
   color: var(--bg-list-col);
@@ -141,6 +142,10 @@ nav{
   border-radius: 50px;
   cursor: pointer;
   font-weight: 600;
+  transition: all linear 0.3s;
+}
+.btn-primary:hover{
+  box-shadow: 0 0 10px var(--p-col);
 }
 .btn-secondary{
   background: #4EC5F7;
@@ -151,6 +156,10 @@ nav{
   margin-left: 10px;
   cursor: pointer;
   font-weight: 600;
+  transition: all linear 0.3s;
+}
+.btn-secondary:hover{
+  box-shadow: 0 0 10px var(--p-col);
 }
 .banner-images{
   width: 50%;
@@ -235,6 +244,11 @@ nav{
   gap: 20px;
   /* cursor: pointer; */
 }
+.video-card{
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 10px;
+}
 .video-card img{
   width: 100%;
 }
@@ -289,12 +303,13 @@ nav{
 /* ===== videos css ends ===== */
 /* ===== play-instant css starts ===== */
 #play{
-  padding-bottom: 180px;
+  padding-bottom: 100px;
 }
 .play-contents{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 80px;
 }
 .play-texts{
   width: 40%;
@@ -309,44 +324,31 @@ nav{
   color: var(--bg-list-col);
   font-size: 16px;
   font-weight: 400;
-  padding-left: 130px;
+  padding-left: 100px;
   line-height: 24px;
 }
 .play-images{
   width: 60%;
-  height: 500px;
-  position: relative;
-  text-align: right;
 }
-.play-image-1{
-  width: 500px;
-  height: 550px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.play-image-1 img{
-  width: 100%;
-}
-.play-image-2{
-  width: 280px;
-  height: 300px;
-  position: absolute;
-  top: 300px;
-  left: 50px;
-}
-.play-image-2 img{
+.play-images img{
   width: 100%;
 }
 /* ===== play-instant css ends ===== */
 /* ===== play-online css starts ===== */
 #play-online{
-  padding-bottom: 180px;
+  padding-bottom: 100px;
 }
 .play-online-contents{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 80px;
+}
+.play-online-images{
+  width: 60%;
+}
+.play-online-images img{
+  width: 100%;
 }
 .play-online-texts{
   width: 40%;
@@ -361,34 +363,7 @@ nav{
   color: var(--bg-list-col);
   font-size: 16px;
   font-weight: 400;
-  padding-right: 30px;
   line-height: 24px;
-}
-.play-online-images{
-  width: 60%;
-  height: 500px;
-  position: relative;
-  text-align: left;
-}
-.play-online-image-1{
-  width: 500px;
-  height: 550px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.play-online-image-1 img{
-  width: 100%;
-}
-.play-online-image-2{
-  width: 280px;
-  height: 300px;
-  position: absolute;
-  top: 300px;
-  right: 50px;
-}
-.play-online-image-2 img{
-  width: 100%;
 }
 /* ===== play-online css ends ===== */
 /* ===== careers css starts ===== */
@@ -455,6 +430,10 @@ nav{
   border-radius: 50px;
   cursor: pointer;
   font-weight: 600;
+  transition: all linear 0.3s;
+}
+.btn-career:hover{
+  box-shadow: 0 0 10px var(--p-col);
 }
 /* ===== careers css ends ===== */
 /* ===== categories css starts ===== */
@@ -545,6 +524,10 @@ nav{
   color: var(--white);
   font-size: 16px;
   font-weight: 600;
+  transition: all linear 0.3s;
+}
+.footer-menu ul li a:hover{
+  color: var(--brand);
 }
 .footer-social ul{
   display: flex;
@@ -563,5 +546,9 @@ nav{
   color: var(--bg-list-col);
   font-size: 14px;
   font-weight: 400;
+  transition: all linear 0.3s;
+}
+.terms-menu ul li a:hover{
+  color: var(--white);
 }
 /* ===== footer css ends ===== */
