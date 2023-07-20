@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--all-font);
 }
 ul,
 ol{
@@ -25,8 +25,9 @@ span{
   color: var(--brand);
 }
 /* ===== common css ends ===== */
-/* ===== variable declaration ===== */
+/* ===== variable declaration starts ===== */
 :root{
+  --all-font: 'Work Sans', sans-serif;
   --p-col: #3C354F;
   --icon-bg: #E7E6E9;
   --brand: #FF42A5;
@@ -35,11 +36,16 @@ span{
   --bg-list-col: #534C64;
   --footer-bg:#0B0223;;
 }
-/* ===== variable declaration ===== */
+/* ===== variable declaration ends ===== */
 /* ===== header css starts ===== */
 nav{
+  background: var(--white);
   padding: 30px 0;
   border-bottom: 1px solid #f0f0f0;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
 }
 .nav-items{
   display: flex;
@@ -90,6 +96,7 @@ nav{
 #banner{
   background: #fdfdfd;
   position: relative;
+  padding-top: 150px;
 }
 #banner::after{
   content: "";
@@ -242,7 +249,6 @@ nav{
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  /* cursor: pointer; */
 }
 .video-card{
   border: 1px solid #e0e0e0;
@@ -452,7 +458,7 @@ nav{
 .category-card{
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   border-radius: 100px;
   border: 1px solid transparent;
   transition: all linear 0.3s;
