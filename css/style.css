@@ -134,12 +134,14 @@ nav{
   font-weight: 600;
 }
 .banner-heading{
-  background: -webkit-linear-gradient(#FF42A5, #A254E2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 80px;
   font-weight: 800;
   margin-bottom: 20px;
+}
+.gradient-heading{
+  background: -webkit-linear-gradient(#FF42A5, #A254E2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .btn-primary{
   background: var(--brand);
@@ -197,9 +199,6 @@ nav{
   text-align: right;
 }
 .gamer-heading{
-  background: -webkit-linear-gradient(#FF42A5, #A254E2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 36px;
   font-weight: 700;
 }
@@ -228,11 +227,6 @@ nav{
 }
 .videos-heading{
   text-align: center;
-}
-.gradient-heading{
-  background: -webkit-linear-gradient(#FF42A5, #A254E2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .video-section-heading{
   font-size: 36px;
