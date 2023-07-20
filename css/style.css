@@ -140,6 +140,7 @@ nav{
 }
 .gradient-heading{
   background: -webkit-linear-gradient(#FF42A5, #A254E2);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
