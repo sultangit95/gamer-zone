@@ -130,7 +130,7 @@
   }
   .play-online-contents{
     flex-direction: column-reverse;
-    gap: 0;
+    gap: 10px;
   }
   .play-online-texts{
     width: 100%;
